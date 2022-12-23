@@ -3,9 +3,155 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #23252C;
+  width: 1000px;
 }
 
 .main-container {
+  display: flex;
+  justify-content: center;
+}
+
+#picture {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.profile h2 {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.profile h4 {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  color: #f7b281;
+  margin: 6px 0 0 0;
+}
+
+.profile p {
+  margin: 8px 0 15px 0;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.profile a {
+  text-decoration: none;
+}
+
+.profile a :hover {
+  text-decoration: underline;
+  color: #fd9e5a;
+}
+
+
+.btn-email {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  pad: 9px, 13px, 9px, 11px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn-email:hover {
+  background-color: #cdc5c5e3;
+}
+
+.btn-linkedin {
+  background: #5093E2;
+  border: 1px solid #5093E2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 115px;
+  height: 34px;
+  pad: 9px, 13px, 9px, 11px;
+  margin-left: 20px;
   color: white;
-  background-color: #23252C;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn-linkedin:hover {
+  background: #5094e29b;
+}
+
+.fa-envelope {
+  font-size: 15px;
+  margin-right: 8px;
+
+}
+.fa-linkedin {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.content {
+  text-align: left;
+  margin: 36px;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color:  #F5F5F5;
+
+}
+
+.content p {
+  font-size: 12px;
+  font-weight: 400;
+  color:  #DCDCDC;
+  line-height: 150%;
+}
+
+.footer {
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px 0 20px 20px;
+}
+
+.footer i {
+  color: #918E9B;
+  font-size: 48px;
+  margin-right: 24px;
+}
+
+.footer i:hover {
+  color: #D4E1F9;
+}
+
+/* Light Version */
+.light-version {
+  margin-left: 100px;
+  color: 4A4E74;
+  background-color: #F5F5F5;
+  width: 317px;
+  border-radius: 10px 10px 15px 15px;
+}
+
+.light-version h2 {
+  color: #2B283A;
+}
+
+.light-version p {
+  color: #4A4E74;
+}
+
+/* Dark Version */
+.dark-version {
+  color: white;
+  background-color: #1A1B21;
+  width: 317px;
+  border-radius: 10px 10px 10px 10px;
 }

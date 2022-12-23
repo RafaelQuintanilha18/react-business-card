@@ -8,10 +8,18 @@ import Footer from "./Components/Footer"
 export default function App() {
   return (
       <div className='main-container'>
-          <Profile />
-          <Buttons />
-          <Content />
-          <Footer />
+          <div className='dark-version'>
+            <Profile />
+            <Buttons />
+            <Content />
+            <Footer />
+          </div>
+          <div className='light-version'>
+            <Profile />
+            <Buttons />
+            <Content />
+            <Footer />
+          </div>
       </div>
   )
 }
